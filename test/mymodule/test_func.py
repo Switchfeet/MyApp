@@ -5,7 +5,7 @@ from src.myapp.mymodule.func import *
 
 @pytest.mark.easy_operation
 def test_add():
-    assert add(4, 8) == 14
+    assert add(4, 8) == 12
 
 
 @pytest.mark.easy_operation
